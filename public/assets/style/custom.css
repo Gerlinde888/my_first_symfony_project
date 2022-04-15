@@ -1,0 +1,5 @@
+@import "components/test.css";
+/* @import url("components/test.css"; */
+.red-bg{
+    background-color: red;
+}

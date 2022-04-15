@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{asset('assets/style/custom.css')}}">
+{% endblock %}
+{% block body %}
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}!</h1>
+
+    <p>Test</p>
+
+    <div class="red-bg container">
+    <p>Here comes some test </p>
+        <img src="{{asset('assets/images/test.jpg')}}" alt="">
+        
+    </div>
+</div>
+{% endblock %}
